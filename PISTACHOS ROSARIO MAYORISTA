@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Proveedor local de pistachos con cáscara y sin cáscara en Rosario. También almendras y nueces de alta calidad. Venta mayorista y minorista. Contacto por WhatsApp." />
+  <title>Pistachos Rosario | Proveedor de Frutos Secos</title>
+  <style>
+    /* Reset simple */
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin: 0;
+      background: #faf9f5;
+      color: #222;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      background-color: #88b04b;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+      box-shadow: 0 2px 5px rgb(0 0 0 / 0.1);
+    }
+    header h1 {
+      margin: 0 0 0.5rem;
+      font-weight: 700;
+      font-size: 2rem;
+    }
+    header p {
+      margin: 0;
+      font-size: 1.1rem;
+      font-weight: 400;
+      opacity: 0.9;
+    }
+    main {
+      flex-grow: 1;
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    h2 {
+      color: #45681c;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin-bottom: 2rem;
+    }
+    ul li {
+      padding: 0.4rem 0;
+      border-bottom: 1px solid #ddd;
+      font-weight: 500;
+      font-size: 1.1rem;
+    }
+    ul li:last-child {
+      border-bottom: none;
+    }
+    .whatsapp-btn {
+      display: inline-block;
+      background-color: #25d366;
+      color: white;
+      font-weight: 700;
+      padding: 1rem 2rem;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+      box-shadow: 0 4px 10px rgb(37 211 102 / 0.5);
+    }
+    .whatsapp-btn:hover,
+    .whatsapp-btn:focus {
+      background-color: #1da851;
+      outline: none;
+      box-shadow: 0 6px 15px rgb(29 168 81 / 0.7);
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgb(0 0 0 / 0.1);
+      object-fit: cover;
+      aspect-ratio: 4 / 3;
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover,
+    .gallery img:focus {
+      transform: scale(1.05);
+      outline: none;
+      box-shadow: 0 6px 20px rgb(0 0 0 / 0.2);
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+      padding: 1.5rem 1rem;
+      background: #f5f5f5;
+      margin-top: auto;
+    }
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+      .whatsapp-btn {
+        padding: 0.8rem 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pistachos en Rosario</h1>
+    <p>Proveedor local de pistachos, almendras y nueces. Venta mayorista y minorista.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Productos disponibles</h2>
+      <ul>
+        <li>Pistachos con cáscara</li>
+        <li>Pistachos sin cáscara</li>
+        <li>Almendras</li>
+        <li>Nueces</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Sobre nosotros</h2>
+      <p>Somos proveedores locales de pistachos argentinos y otros frutos secos. Vendemos por menor y por mayor, con excelente calidad y precio.</p>
+    </section>
+
+    <section>
+      <h2>Contacto</h2>
+      <p>Para consultas y pedidos, escribinos por WhatsApp:</p>
+      <a
+        href="https://wa.me/543462626334"
+        class="whatsapp-btn"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Contactar por WhatsApp"
+        >Contactar por WhatsApp</a
+      >
+    </section>
+
+    <section class="gallery" aria-label="Galería de productos">
+      <img src="pistachos-cascara.jpg" alt="Pistachos con cáscara frescos" />
+      <img src="pistachos-sin-cascara.jpg" alt="Pistachos sin cáscara" />
+      <img src="almendras.jpg" alt="Almendras de alta calidad" />
+      <img src="nueces.jpg" alt="Nueces frescas y deliciosas" />
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Pistachos Rosario. Venta de pistachos y frutos secos. Rosario, Santa Fe.
+  </footer>
+</body>
+</html>
